@@ -1,0 +1,11 @@
+.scroll-up {
+    position: fixed;
+    opacity: 70%;
+    right: 80px;
+    bottom: 30px;
+    font-size: 2.5rem;
+    transition: all .3s linear;
+    &:hover {
+        opacity: 100%;
+    }
+}

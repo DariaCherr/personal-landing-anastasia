@@ -1,0 +1,14 @@
+.social-links {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    &__item {
+        display: inline-block;
+        transition-duration: .5s;
+        &:not(:last-of-type) {
+            margin-right: 15px;
+        }
+        &:hover {
+            transform: scale(1.3);
+        }
+    }
+}

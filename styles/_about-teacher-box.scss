@@ -1,0 +1,10 @@
+.about-teacher-box {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 608px) {
+    .about-teacher-box {
+        flex-direction: column;
+    }
+}

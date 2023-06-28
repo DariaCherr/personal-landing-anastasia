@@ -1,0 +1,10 @@
+.events-box {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 550px) {
+    .events-box {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,27 @@
+.quote {
+    margin: 70px auto 0;
+    font-size: 1.2rem;
+    line-height: 50px;
+    &::before {
+        content: "«";
+        font-size: 1.5rem;
+    }
+    &::after {
+        content: "»";
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .quote {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .quote {
+        line-height: 30px;
+        max-width: 500px;
+        font-size: 0.8rem;
+    }
+}

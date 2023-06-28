@@ -1,0 +1,14 @@
+.menu {
+    &__item {
+        display: inline-block;
+        font-weight: 600;
+        font-size: 0.8rem;
+        transition: .5s;
+        &:hover {
+            transform: scale(1.2);
+        }
+        &:not(:last-of-type) {
+            margin-right: 20px;
+        }
+    }
+}

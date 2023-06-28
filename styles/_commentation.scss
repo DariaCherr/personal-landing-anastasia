@@ -1,0 +1,11 @@
+.commentation {
+    &__desc {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .commentation {
+        padding: 50px 10px;
+    }
+}
