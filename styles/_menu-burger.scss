@@ -1,0 +1,8 @@
+.menu-burger {
+    display: none;
+    color: aquamarine;
+    transition: .5s;
+    &:hover {
+        transform: scale(1.2);
+    }
+}

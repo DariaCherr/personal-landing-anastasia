@@ -7,9 +7,17 @@
     img {
         max-width: 380px;
         width: 100%;
+        transition: .5s;
+        &:hover {
+            transform: scale(1.1);
+        }
     }
     &__desc {
         margin-top: 15px;
+        transition: .5s;
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }
 

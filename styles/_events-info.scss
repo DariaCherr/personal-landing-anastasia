@@ -1,6 +1,5 @@
 .events-info {
     background: #FFFFFF;
-    border: 2px solid #F1F1F1;
     width: calc((100% - 40px)/2);
     max-width: 384px;
     border-radius: 40px;
@@ -25,6 +24,9 @@
     }
     &__title {
         margin-bottom: 20px;
+    }
+    &:hover {
+        background-color: rgba(239, 153, 43, 0.1);
     }
 }
 
