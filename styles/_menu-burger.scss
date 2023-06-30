@@ -1,8 +1,11 @@
 .menu-burger {
     display: none;
-    color: aquamarine;
-    transition: .5s;
-    &:hover {
-        transform: scale(1.2);
+}
+
+@media screen and (max-width: 740px) {
+    .menu-burger {
+        display: inline-block;
+        position: absolute;
+        right: 10px;
     }
 }

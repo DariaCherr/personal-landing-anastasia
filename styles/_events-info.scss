@@ -10,7 +10,19 @@
         margin-right: 40px;
     }
     &::after {
-        @include pseudo;
+        content: "";
+        display: block;
+        position: absolute;
+        width: 185px;
+        height: 30px;
+        background-color: rgba(255, 255, 255, 0.8);
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-align: center;
+        line-height: 30px;
+        right: 50px;
+        top: 110px;
+        color: #d6800f;
     }
     &:first-of-type::after {
         content: "31 июля-5 августа";
@@ -33,7 +45,12 @@
 @media screen and (max-width: 783px) {
     .events-info {
         &::after {
-            @include pseudo2;
+            width: 135px;
+            height: 25px;
+            font-size: 0.8rem;
+            line-height: 25px;
+            top: 100px;
+            right: 40px;
         }
         padding: 20px 20px;
         &__title {
@@ -45,7 +62,12 @@
 @media screen and (max-width: 640px) {
     .events-info {
         &::after {
-            @include pseudo3;
+            width: 110px;
+            height: 20px;
+            font-size: 0.65rem;
+            line-height: 20px;
+            top: 80px;
+            right: 25px;
         }
         &__title {
             margin-bottom: 10px;
@@ -66,7 +88,12 @@
             margin: 0 auto 30px;
         }
         &::after {
-            @include pseudo4;
+            width: 185px;
+            height: 30px;
+            top: 85px;
+            right: 50px;
+            line-height: 30px;
+            font-size: 0.9rem;
         }
     }
 }
