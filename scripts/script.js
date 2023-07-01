@@ -3,7 +3,6 @@ const burger = document.querySelector(".menu-burger");
 const popup = document.querySelector(".popup");
 const body = document.body;
 
-
 burger.addEventListener("click", changeMenu);
 
 function changeMenu(e) {
@@ -20,11 +19,13 @@ function renderPopup() {
 
 const bgMenu = Array.from(menu.children);
 
+for (i = 0; i < bgMenu.length; i++) {
+    console.log();
+}
+
 bgMenu.forEach((item) => {
-    item.style.display = 'block';
+    item.style.display = 'inline-block';
 });
-
-
 
 function closeOnClick() {
     popup.classList.remove("open");
@@ -32,5 +33,4 @@ function closeOnClick() {
 
 }
 
-
-console.log();
+console.log(bg);
