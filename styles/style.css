@@ -645,7 +645,7 @@ h2 {
 .scroll-up {
   position: fixed;
   opacity: 70%;
-  right: 80px;
+  right: 20px;
   bottom: 30px;
   font-size: 2.5rem;
   transition: all 0.3s linear;
