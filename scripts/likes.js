@@ -1,5 +1,5 @@
 let hearts = document.querySelectorAll('.heart');
-let likesNumber = document.querySelectorAll('.likes-number');
+let likesNumber = document.querySelector('.likes-number');
 
 for (let item of hearts) {
     item.addEventListener('click', function() {
