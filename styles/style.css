@@ -672,5 +672,7 @@ h2 {
 .wrapper-menu {
   max-width: 1000px;
   display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
   margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
