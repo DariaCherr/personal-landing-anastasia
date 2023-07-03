@@ -14,12 +14,12 @@
     &__wrapper {
         border: 2px solid #ef992b;
         background-color: #E4DBD3;
-        height: 320px;
+        min-height: 350px;
         padding: 20px;
         margin-bottom: 40px;
     }
     &__text {
-        padding: 5px 0 15px 0;
+        padding: 5px 0 10px 0;
         font-size: 0.8rem;
         color: #474747;
     }
@@ -35,64 +35,13 @@
     font-size: 14px;
 }
 
-@media screen and (max-width: 1455px) {
-    .slider {
-        &__wrapper {
-            height: 400px;
-        }
-    }
-}
-
-@media screen and (max-width: 895px) {
-    .slider {
-        &__wrapper {
-            height: 480px;
-        }
-    }
-}
-
 @media screen and (max-width: 770px) {
     .slider {
         padding: 0 20px;
-        &__wrapper {
-            height: 310px;
-        }
         &__button {
             &:after {
                 font-size: 40px;
             }
-        }
-    }
-}
-
-@media screen and (max-width: 582px) {
-    .slider {
-        &__wrapper {
-            height: 390px;
-        }
-    }
-}
-
-@media screen and (max-width: 459px) {
-    .slider {
-        &__wrapper {
-            height: 470px;
-        }
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .slider {
-        &__wrapper {
-            height: 530px;
-        }
-    }
-}
-
-@media screen and (max-width: 354px) {
-    .slider {
-        &__wrapper {
-            height: 600px;
         }
     }
 }

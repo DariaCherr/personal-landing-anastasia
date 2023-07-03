@@ -5,10 +5,12 @@
     &::before {
         content: "«";
         font-size: 1.5rem;
+        color: #ef992b;
     }
     &::after {
         content: "»";
         font-size: 1.5rem;
+        color: #ef992b;
     }
 }
 

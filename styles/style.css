@@ -67,12 +67,10 @@
   content: " ";
   display: block;
   position: absolute;
-  left: 0;
-  top: 0;
   width: 100%;
   height: 100%;
   opacity: 0.07;
-  left: -400px;
+  left: -300px;
   background-image: url("../img/icon.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -81,6 +79,11 @@
 @media screen and (max-width: 1024px) {
   .about-yoga__picture img {
     max-width: 300px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .about-yoga__text:before {
+    left: -200px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -95,11 +98,7 @@
   }
 }
 .article-info {
-  width: calc((100% - 80px) / 3);
-  max-width: 380px;
-}
-.article-info:not(:last-child) {
-  margin-right: 40px;
+  margin-bottom: 50px;
 }
 .article-info img {
   max-width: 380px;
@@ -118,9 +117,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .article-info:not(:last-child) {
-    margin-right: 15px;
-  }
   .article-info__desc {
     font-size: 0.9rem;
   }
@@ -129,21 +125,12 @@
   .article-info {
     min-width: 110px;
   }
-  .article-info:not(:last-child) {
-    margin-right: 10px;
-  }
   .article-info__desc {
     margin-top: 10px;
   }
 }
-@media screen and (max-width: 600px) {
-  .articles {
-    padding: 50px 10px;
-  }
-}
 .background-grey {
   background-color: #f2f1f0;
-  padding: 80px 0;
 }
 
 .background-lightgrey {
@@ -188,9 +175,9 @@ section {
     padding: 50px 41px;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 650px) {
   section {
-    padding: 50px 0;
+    padding: 30px 10px;
   }
 }
 .wrapper {
@@ -242,11 +229,6 @@ h1 {
     max-width: 200px;
   }
 }
-.box {
-  display: flex;
-  justify-content: center;
-}
-
 @media screen and (max-width: 460px) {
   .button-box {
     display: flex;
@@ -296,11 +278,7 @@ h1 {
   }
 }
 .reviews-info {
-  width: calc((100% - 80px) / 3);
-  max-width: 380px;
-}
-.reviews-info:not(:last-child) {
-  margin-right: 40px;
+  margin-bottom: 50px;
 }
 .reviews-info img {
   max-width: 380px;
@@ -324,9 +302,6 @@ h1 {
     font-size: 0.8rem;
     margin-top: 10px;
   }
-  .reviews-info:not(:last-child) {
-    margin-right: 20px;
-  }
 }
 @media screen and (max-width: 450px) {
   .reviews-info {
@@ -335,19 +310,16 @@ h1 {
   .reviews-info__title {
     font-size: 0.65rem;
   }
-  .reviews-info:not(:last-child) {
-    margin-right: 10px;
-  }
 }
 .comments {
   min-width: 0;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
+@media screen and (max-width: 770px) {
+  .comments {
+    padding: 50px 0;
+  }
 }
-
 .events-box {
   display: flex;
   justify-content: center;
@@ -458,7 +430,7 @@ h1 {
   padding: 80px 0;
 }
 .footer__text {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 header {
@@ -597,10 +569,12 @@ h2 {
 .quote::before {
   content: "«";
   font-size: 1.5rem;
+  color: #ef992b;
 }
 .quote::after {
   content: "»";
   font-size: 1.5rem;
+  color: #ef992b;
 }
 
 @media screen and (max-width: 890px) {
@@ -619,11 +593,6 @@ h2 {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 700px) {
-  .reviews {
-    padding: 50px 10px;
-  }
-}
 .scroll-up {
   position: fixed;
   opacity: 70%;
@@ -631,9 +600,20 @@ h2 {
   bottom: 30px;
   font-size: 2.5rem;
   transition: all 0.3s linear;
+  z-index: 998;
 }
 .scroll-up:hover {
   opacity: 100%;
+}
+
+.slider-article {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-reviews {
+  position: relative;
+  overflow: hidden;
 }
 
 .slider {
@@ -651,12 +631,12 @@ h2 {
 .slider__wrapper {
   border: 2px solid #ef992b;
   background-color: #E4DBD3;
-  height: 320px;
+  min-height: 350px;
   padding: 20px;
   margin-bottom: 40px;
 }
 .slider__text {
-  padding: 5px 0 15px 0;
+  padding: 5px 0 10px 0;
   font-size: 0.8rem;
   color: #474747;
 }
@@ -671,45 +651,12 @@ h2 {
   font-size: 14px;
 }
 
-@media screen and (max-width: 1455px) {
-  .slider__wrapper {
-    height: 400px;
-  }
-}
-@media screen and (max-width: 895px) {
-  .slider__wrapper {
-    height: 480px;
-  }
-}
 @media screen and (max-width: 770px) {
   .slider {
     padding: 0 20px;
   }
-  .slider__wrapper {
-    height: 310px;
-  }
   .slider__button:after {
     font-size: 40px;
-  }
-}
-@media screen and (max-width: 582px) {
-  .slider__wrapper {
-    height: 390px;
-  }
-}
-@media screen and (max-width: 459px) {
-  .slider__wrapper {
-    height: 470px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .slider__wrapper {
-    height: 530px;
-  }
-}
-@media screen and (max-width: 354px) {
-  .slider__wrapper {
-    height: 600px;
   }
 }
 .social-links {

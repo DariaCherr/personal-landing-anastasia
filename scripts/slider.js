@@ -26,3 +26,59 @@ new Swiper('.slider', {
     }
 
 });
+
+new Swiper('.slider-article', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    },
+
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
+    },
+
+    spaceBetween: 30,
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+        },
+        650: {
+            slidesPerView: 2,
+        },
+        900: {
+            slidesPerView: 3,
+        }
+    }
+});
+
+new Swiper('.slider-reviews', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    },
+
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
+    },
+
+    spaceBetween: 30,
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+        },
+        650: {
+            slidesPerView: 2,
+        },
+        900: {
+            slidesPerView: 3,
+        }
+    }
+});
