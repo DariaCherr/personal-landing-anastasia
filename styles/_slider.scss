@@ -1,0 +1,36 @@
+.slider {
+    position: relative;
+    padding: 0 50px;
+    overflow: hidden;
+    &__button {
+        &:after {
+            color: #ef992b;
+            font-size: 60px;
+        }
+    }
+    &__pagination {
+        position: absolute;
+    }
+    &__wrapper {
+        border: 2px solid #ef992b;
+        background-color: #E4DBD3;
+        height: 320px;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+    &__text {
+        padding: 5px 0 15px 0;
+        font-size: 0.8rem;
+        color: #474747;
+    }
+    &__desc {
+        font-size: 0.8rem;
+    }
+}
+
+.swiper-pagination-bullet {
+    width: 18px;
+    height: 18px;
+    background-color: #ef992b;
+    font-size: 14px;
+}

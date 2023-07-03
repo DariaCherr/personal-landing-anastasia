@@ -1,4 +1,4 @@
-.comment-info {
+.reviews-info {
     width: calc((100% - 40px*2)/3);
     max-width: 380px;
     &:not(:last-child) {
@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 700px) {
-    .comment-info {
+    .reviews-info {
         &__title {
             font-size: 0.8rem;
             margin-top: 10px;
@@ -35,7 +35,7 @@
 }
 
 @media screen and (max-width: 450px) {
-    .comment-info {
+    .reviews-info {
         min-width: 110px;
         &__title {
             font-size: 0.65rem;
