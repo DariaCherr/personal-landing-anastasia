@@ -11,9 +11,19 @@ new Swiper('.slider', {
         dynamicBullets: true,
     },
 
-    slidesPerView: 2,
+
 
     spaceBetween: 30,
 
     loop: true,
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+        },
+        770: {
+            slidesPerView: 2,
+        },
+    }
+
 });

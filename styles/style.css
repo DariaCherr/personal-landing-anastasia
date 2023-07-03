@@ -665,6 +665,26 @@ h2 {
   font-size: 14px;
 }
 
+@media screen and (max-width: 1455px) {
+  .slider__wrapper {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 1175px) {
+  .slider__wrapper {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 873px) {
+  .slider__wrapper {
+    height: 590px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .slider__wrapper {
+    height: 300px;
+  }
+}
 .social-links {
   margin-top: 30px;
   font-size: 1.2rem;

@@ -34,3 +34,35 @@
     background-color: #ef992b;
     font-size: 14px;
 }
+
+@media screen and (max-width: 1455px) {
+    .slider {
+        &__wrapper {
+            height: 400px;
+        }
+    }
+}
+
+@media screen and (max-width: 1175px) {
+    .slider {
+        &__wrapper {
+            height: 500px;
+        }
+    }
+}
+
+@media screen and (max-width: 873px) {
+    .slider {
+        &__wrapper {
+            height: 590px;
+        }
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .slider {
+        &__wrapper {
+            height: 300px;
+        }
+    }
+}
