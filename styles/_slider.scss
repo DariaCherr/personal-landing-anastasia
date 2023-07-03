@@ -1,6 +1,6 @@
 .slider {
     position: relative;
-    padding: 0 50px;
+    padding: 0 20px;
     overflow: hidden;
     &__button {
         &:after {
@@ -43,26 +43,56 @@
     }
 }
 
-@media screen and (max-width: 1175px) {
+@media screen and (max-width: 895px) {
     .slider {
         &__wrapper {
-            height: 500px;
-        }
-    }
-}
-
-@media screen and (max-width: 873px) {
-    .slider {
-        &__wrapper {
-            height: 590px;
+            height: 480px;
         }
     }
 }
 
 @media screen and (max-width: 770px) {
     .slider {
+        padding: 0 20px;
         &__wrapper {
-            height: 300px;
+            height: 310px;
+        }
+        &__button {
+            &:after {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 582px) {
+    .slider {
+        &__wrapper {
+            height: 390px;
+        }
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .slider {
+        &__wrapper {
+            height: 470px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .slider {
+        &__wrapper {
+            height: 530px;
+        }
+    }
+}
+
+@media screen and (max-width: 354px) {
+    .slider {
+        &__wrapper {
+            height: 600px;
         }
     }
 }

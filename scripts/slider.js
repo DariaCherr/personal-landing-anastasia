@@ -11,8 +11,6 @@ new Swiper('.slider', {
         dynamicBullets: true,
     },
 
-
-
     spaceBetween: 30,
 
     loop: true,
@@ -20,6 +18,7 @@ new Swiper('.slider', {
     breakpoints: {
         320: {
             slidesPerView: 1,
+            spaceBetween: 15,
         },
         770: {
             slidesPerView: 2,
