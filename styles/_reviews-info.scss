@@ -11,6 +11,7 @@
     &__title {
         margin-top: 20px;
         font-size: 1rem;
+        font-weight: normal;
         transition: .5s;
         &:hover {
             transform: scale(1.1);
@@ -21,7 +22,7 @@
 @media screen and (max-width: 700px) {
     .reviews-info {
         &__title {
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             margin-top: 10px;
         }
     }
@@ -30,8 +31,5 @@
 @media screen and (max-width: 450px) {
     .reviews-info {
         min-width: 110px;
-        &__title {
-            font-size: 0.65rem;
-        }
     }
 }

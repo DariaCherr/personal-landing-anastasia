@@ -178,7 +178,7 @@ section {
 }
 @media screen and (max-width: 650px) {
   section {
-    padding: 30px 10px;
+    padding: 30px 20px;
   }
 }
 .wrapper {
@@ -292,6 +292,7 @@ h1 {
 .reviews-info__title {
   margin-top: 20px;
   font-size: 1rem;
+  font-weight: normal;
   transition: 0.5s;
 }
 .reviews-info__title:hover {
@@ -300,16 +301,13 @@ h1 {
 
 @media screen and (max-width: 700px) {
   .reviews-info__title {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-top: 10px;
   }
 }
 @media screen and (max-width: 450px) {
   .reviews-info {
     min-width: 110px;
-  }
-  .reviews-info__title {
-    font-size: 0.65rem;
   }
 }
 .comments {
@@ -642,7 +640,7 @@ h2 {
   color: #474747;
 }
 .slider__desc {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .swiper-pagination-bullet {
@@ -658,6 +656,9 @@ h2 {
   }
   .slider__button:after {
     font-size: 40px;
+  }
+  .slider__desc {
+    font-size: 0.8rem;
   }
 }
 .social-links {

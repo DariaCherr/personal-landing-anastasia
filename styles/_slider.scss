@@ -24,7 +24,7 @@
         color: #474747;
     }
     &__desc {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 }
 
@@ -42,6 +42,9 @@
             &:after {
                 font-size: 40px;
             }
+        }
+        &__desc {
+            font-size: 0.8rem;
         }
     }
 }
