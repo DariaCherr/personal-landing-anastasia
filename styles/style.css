@@ -345,6 +345,11 @@ h1 {
   box-shadow: 2px 2px 5px 5px rgba(239, 153, 43, 0.5);
   padding: 20px 30px;
   position: relative;
+  transition: 0.5s;
+}
+.events-info:hover {
+  transform: scale(1.05);
+  background-color: rgba(239, 153, 43, 0.1);
 }
 .events-info:not(:last-child) {
   margin-right: 40px;
@@ -600,11 +605,13 @@ h2 {
 .slider-article {
   position: relative;
   overflow: hidden;
+  padding: 0 20px;
 }
 
 .slider-reviews {
   position: relative;
   overflow: hidden;
+  padding: 0 20px;
 }
 
 .slider {
