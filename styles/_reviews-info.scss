@@ -1,21 +1,25 @@
 .reviews-info {
     margin-bottom: 50px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px 5px rgba(239, 153, 43, 0.5);
+    transition: .5s;
+    padding: 30px 20px;
+    margin-top: 10px;
+    &:first-child {
+        margin-left: 10px;
+    }
+    &:hover {
+        transform: scale(0.95);
+        background-color: rgba(239, 153, 43, 0.1);
+    }
     img {
-        max-width: 380px;
+        max-width: 350px;
         width: 100%;
-        transition: .5s;
-        &:hover {
-            transform: scale(1.1);
-        }
     }
     &__title {
         margin-top: 20px;
         font-size: 1rem;
         font-weight: normal;
-        transition: .5s;
-        &:hover {
-            transform: scale(1.1);
-        }
     }
 }
 

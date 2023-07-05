@@ -56,7 +56,7 @@
   }
 }
 .about-yoga__picture img {
-  max-width: 400px;
+  max-width: 350px;
 }
 .about-yoga__text {
   margin-right: 30px;
@@ -99,22 +99,26 @@
 }
 .article-info {
   margin-bottom: 50px;
-  width: 200px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 40px;
+  box-shadow: 2px 2px 5px 5px rgba(239, 153, 43, 0.5);
+  padding: 20px 20px;
+  transition: 0.5s;
+}
+.article-info:first-child {
+  margin-left: 10px;
+}
+.article-info:hover {
+  transform: scale(0.95);
+  background-color: rgba(239, 153, 43, 0.1);
 }
 .article-info img {
   max-width: 380px;
   width: 100%;
-  transition: 0.5s;
-}
-.article-info img:hover {
-  transform: scale(1.1);
 }
 .article-info__desc {
   margin-top: 10px;
-  transition: 0.5s;
-}
-.article-info__desc:hover {
-  transform: scale(1.1);
 }
 
 @media screen and (max-width: 600px) {
@@ -280,23 +284,27 @@ h1 {
 }
 .reviews-info {
   margin-bottom: 50px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 5px 5px rgba(239, 153, 43, 0.5);
+  transition: 0.5s;
+  padding: 30px 20px;
+  margin-top: 10px;
+}
+.reviews-info:first-child {
+  margin-left: 10px;
+}
+.reviews-info:hover {
+  transform: scale(0.95);
+  background-color: rgba(239, 153, 43, 0.1);
 }
 .reviews-info img {
-  max-width: 380px;
+  max-width: 350px;
   width: 100%;
-  transition: 0.5s;
-}
-.reviews-info img:hover {
-  transform: scale(1.1);
 }
 .reviews-info__title {
   margin-top: 20px;
   font-size: 1rem;
   font-weight: normal;
-  transition: 0.5s;
-}
-.reviews-info__title:hover {
-  transform: scale(1.1);
 }
 
 @media screen and (max-width: 700px) {
@@ -341,6 +349,9 @@ h1 {
 .events-info:not(:last-child) {
   margin-right: 40px;
 }
+.events-info:hover {
+  background-color: rgba(239, 153, 43, 0.1);
+}
 .events-info::after {
   content: "";
   display: block;
@@ -368,9 +379,6 @@ h1 {
 }
 .events-info__title {
   margin-bottom: 20px;
-}
-.events-info:hover {
-  background-color: rgba(239, 153, 43, 0.1);
 }
 
 @media screen and (max-width: 783px) {
@@ -454,22 +462,6 @@ h2 {
   margin-top: 10px;
 }
 
-.heart {
-  display: flex;
-  background-image: url(../icons/heart-regular.svg);
-  align-items: center;
-  padding: 12px 10px;
-  width: 37px;
-  height: 20px;
-  font-weight: bold;
-  font-size: 1rem;
-  border: none;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  background-position: 12px;
-  cursor: pointer;
-}
-
 .likes-number {
   margin-left: 14px;
   line-height: 14px;
@@ -506,7 +498,7 @@ h2 {
 .menu__item {
   display: inline-block;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   transition: 0.5s;
 }
 .menu__item:hover {
@@ -623,6 +615,8 @@ h2 {
 .slider__button:after {
   color: #ef992b;
   font-size: 60px;
+  position: absolute;
+  top: 60px;
 }
 .slider__pagination {
   position: absolute;
@@ -630,6 +624,7 @@ h2 {
 .slider__wrapper {
   border: 2px solid #ef992b;
   background-color: #E4DBD3;
+  border-radius: 50px;
   min-height: 350px;
   padding: 20px;
   margin-bottom: 40px;

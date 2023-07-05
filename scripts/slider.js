@@ -40,6 +40,7 @@ new Swiper('.slider-article', {
     },
 
     spaceBetween: 30,
+    loop: true,
 
     breakpoints: {
         320: {
@@ -68,6 +69,7 @@ new Swiper('.slider-reviews', {
     },
 
     spaceBetween: 30,
+    loop: true,
 
     breakpoints: {
         320: {

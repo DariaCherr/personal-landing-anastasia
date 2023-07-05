@@ -6,6 +6,8 @@
         &:after {
             color: #ef992b;
             font-size: 60px;
+            position: absolute;
+            top: 60px;
         }
     }
     &__pagination {
@@ -14,6 +16,7 @@
     &__wrapper {
         border: 2px solid #ef992b;
         background-color: #E4DBD3;
+        border-radius: 50px;
         min-height: 350px;
         padding: 20px;
         margin-bottom: 40px;

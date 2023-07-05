@@ -9,6 +9,9 @@
     &:not(:last-child) {
         margin-right: 40px;
     }
+    &:hover {
+        background-color: rgba(239, 153, 43, 0.1);
+    }
     &::after {
         content: "";
         display: block;
@@ -36,9 +39,6 @@
     }
     &__title {
         margin-bottom: 20px;
-    }
-    &:hover {
-        background-color: rgba(239, 153, 43, 0.1);
     }
 }
 

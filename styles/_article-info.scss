@@ -1,20 +1,24 @@
 .article-info {
     margin-bottom: 50px;
-    width: 200px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px 5px rgba(239, 153, 43, 0.5);
+    padding: 20px 20px;
+    transition: .5s;
+    &:first-child {
+        margin-left: 10px;
+    }
+    &:hover {
+        transform: scale(0.95);
+        background-color: rgba(239, 153, 43, 0.1);
+    }
     img {
         max-width: 380px;
         width: 100%;
-        transition: .5s;
-        &:hover {
-            transform: scale(1.1);
-        }
     }
     &__desc {
         margin-top: 10px;
-        transition: .5s;
-        &:hover {
-            transform: scale(1.1);
-        }
     }
 }
 
