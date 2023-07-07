@@ -51,20 +51,16 @@ a {
 }
 
 h1 {
-    color: #ffe586;
+    color: rgb(249, 221, 118);
     font-size: 3.5rem;
-    animation-duration: 2s;
-    animation-name: slidein;
-    @keyframes slidein {
-        from {
-            margin-left: 100%;
-            width: 300%;
-        }
-        to {
-            margin-left: 0%;
-            width: 100%;
-        }
-    }
+    visibility: hidden;
+    transform: translateY(30px);
+    transition: 1s;
+}
+
+.visible {
+    visibility: visible;
+    transform: translateY(0);
 }
 
 @media screen and (max-width: 1024px) {

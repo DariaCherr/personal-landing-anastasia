@@ -21,7 +21,7 @@ new Swiper('.slider', {
             spaceBetween: 15,
         },
         770: {
-            slidesPerView: 2,
+            slidesPerView: 2.1,
         },
     }
 
