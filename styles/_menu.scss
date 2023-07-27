@@ -19,9 +19,9 @@
         display: inline-block;
         font-weight: 600;
         font-size: 0.9rem;
-        transition: .5s;
+        transition: .3s;
         &:hover {
-            transform: scale(1.2);
+            transform: scale(1.1);
             border-bottom: 1px solid #ef992b;
         }
         &:not(:last-of-type) {
@@ -48,7 +48,7 @@
             }
         }
         &__logo {
-            display: block;
+            display: inline-block;
             position: absolute;
             left: 20px;
             top: 7px;

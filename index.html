@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/7432addfe6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="all" href="animated/css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="animated/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Merriweather&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico.png" type="image/x-icon">
@@ -49,18 +54,18 @@
         <section class="banner" id="to-scroll">
             <h1 class="banner__title">Анастасия Черника</h1>
             <div class="button-box">
-                <a href="#announcement" class="button btn1">Ближайшие путешествия</a>
-                <a href="#art" class="button btn2">Мои статьи</a>
+                <a href="#announcement" class="button btn1 fadeInUp animated">Ближайшие путешествия</a>
+                <a href="#art" class="button btn2 fadeInUp animated">Мои статьи</a>
             </div>
         </section>
 
         <section class="about-teacher background-grey" id="about">
             <div class="wrapper">
-                <div class="about-teacher-box">
+                <div class="about-teacher-box fadeInUp wow">
                     <div class="about-teacher__picture">
                         <img src="img/Анастасия.jpg" alt="Photo of Anastasia">
                     </div>
-                    <div class="about-teacher__info">
+                    <div class="about-teacher__info fadeInRight wow">
                         <p class="about-teacher__desc">Преподаватель школы йоги Виктора Бойко с 2007 года
                             <a href="https://realyoga.ru">(Сайт школы)</a>.</p><br>
                         <p class="about-teacher__desc">Организатор семинаров школы по всей России с 2008 года.</p><br>
@@ -73,7 +78,7 @@
         <section class="about-yoga background-lightgrey">
             <div class="wrapper">
                 <div class="about-yoga-box">
-                    <div class="about-yoga__text">
+                    <div class="about-yoga__text fadeInUp wow">
                         <p><i>Что для меня йога?</i> Работа с вниманием.</p><br>
                         <p>Где наше внимание – там и наша жизнь, наше всё!</p><br>
                         <p>Йога как способ аккуратного, бережного прикосновения к ткани бытия, простое и одновременно наполненное присутствие в своей жизни. Практика давно для меня стала неотъемлемой частью существования, особый вид питания, с которым мне
@@ -92,13 +97,13 @@
             <div class="wrapper">
                 <h2 class="heading">Мероприятия 2022 год</h2>
                 <div class="events-box">
-                    <article class="events-info">
+                    <article class="events-info fadeInUp wow">
                         <a href="http://nebeshavasana.ru/ural">
                             <h3 class="events-info__title">Йога-тур.<br>Урал</h3>
                             <img src="img/Река Серьга.jpg" alt="Река Серьга">
                         </a>
                     </article>
-                    <article class="events-info">
+                    <article class="events-info fadeInUp wow">
                         <a href="https://realyoga.ru/seminars/2022/09-more-i-gory-dagestana">
                             <h3 class="events-info__title">Море и горы<br>Дагестана</h3>
                             <img src="img/Дагестан.png" alt="Дагестан">
@@ -172,10 +177,10 @@
                             <a href="http://nebeshavasana.ru/yogareset">
                                 <img src="img/Для статьи 1.jpg" alt="Чайки над Байкалом">
                             </a>
-                            <!-- <div class="heart-counter">
+                            <div class="heart-counter">
                                 <button class="heart" type="button"></button>
                                 <span class="likes-number">0</span>
-                            </div> -->
+                            </div>
                             <a href="http://nebeshavasana.ru/ne_dremlet">
                                 <p class="article-info__desc">Все мы родом из детства</p>
                             </a>
@@ -184,10 +189,10 @@
                             <a href="http://nebeshavasana.ru/ne_dremlet">
                                 <img src="img/Для статьи 2.jpg" alt="">
                             </a>
-                            <!-- <div class="heart-counter">
+                            <div class="heart-counter">
                                 <button class="heart" type="button"></button>
                                 <span class="likes-number">0</span>
-                            </div> -->
+                            </div>
                             <a href="http://nebeshavasana.ru/ne_dremlet">
                                 <p class="article-info__desc">Для тех, кто не дремлет...</p>
                             </a>
@@ -197,10 +202,10 @@
                                 <img src="img/Для статьи 3.jpg" alt="">
 
                             </a>
-                            <!-- <div class="heart-counter">
+                            <div class="heart-counter">
                                 <button class="heart" type="button"></button>
                                 <span class="likes-number">0</span>
-                            </div> -->
+                            </div>
                             <a href="http://nebeshavasana.ru/ne_dremlet">
                                 <p class="article-info__desc">Работа с вниманием в практике йоги</p>
                             </a>
@@ -212,6 +217,7 @@
                 </div>
                 <blockquote class="quote">
                     <p><i>Грамотная практика йоги – тонкая настройка на свою мелодию. Когда ты живёшь в такт своей душе – Вселенная подпевает!</i></p>
+
                 </blockquote>
             </div>
         </section>

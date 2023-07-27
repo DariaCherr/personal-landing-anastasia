@@ -103,14 +103,14 @@
   width: 100%;
   border-radius: 40px;
   box-shadow: 2px 2px 5px 5px rgba(239, 153, 43, 0.5);
-  padding: 20px 20px;
+  padding: 20px;
   transition: 0.5s;
 }
 .article-info:first-child {
   margin-left: 10px;
 }
 .article-info:hover {
-  transform: scale(0.95);
+  transform: scale(0.97);
   background-color: rgba(239, 153, 43, 0.1);
 }
 .article-info img {
@@ -290,7 +290,7 @@ h1 {
   margin-left: 10px;
 }
 .reviews-info:hover {
-  transform: scale(0.95);
+  transform: scale(0.97);
   background-color: rgba(239, 153, 43, 0.1);
 }
 .reviews-info img {
@@ -463,6 +463,22 @@ h2 {
   margin-top: 10px;
 }
 
+.heart {
+  display: flex;
+  background-image: url(../icons/heart-regular.svg);
+  align-items: center;
+  padding: 12px 10px;
+  width: 37px;
+  height: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 12px;
+  cursor: pointer;
+}
+
 .likes-number {
   margin-left: 14px;
   line-height: 14px;
@@ -500,10 +516,10 @@ h2 {
   display: inline-block;
   font-weight: 600;
   font-size: 0.9rem;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .menu__item:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   border-bottom: 1px solid #ef992b;
 }
 .menu__item:not(:last-of-type) {
@@ -527,7 +543,7 @@ h2 {
     margin: 0 0 7px 0;
   }
   .menu__logo {
-    display: block;
+    display: inline-block;
     position: absolute;
     left: 20px;
     top: 7px;
