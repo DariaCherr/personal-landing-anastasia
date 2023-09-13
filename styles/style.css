@@ -157,7 +157,7 @@
 }
 
 html {
-  font-size: 20px;
+  font-size: 18px;
   scroll-behavior: smooth;
 }
 
@@ -192,7 +192,7 @@ section {
 
 a {
   text-decoration: none;
-  color: #ef992b;
+  color: rgb(241, 131, 34);
 }
 
 .noscroll {
@@ -201,7 +201,7 @@ a {
 
 h1 {
   color: rgb(249, 221, 118);
-  font-size: 3.5rem;
+  font-size: 3rem;
   visibility: hidden;
   transform: translateY(30px);
   transition: 1s;
@@ -248,13 +248,13 @@ h1 {
   margin: 50px auto 0;
   text-align: center;
   line-height: 40px;
-  transition: background 0.5s linear;
+  transition: background 0.3s linear;
 }
 .button:not(:last-child) {
   margin-right: 30px;
 }
 .button:hover {
-  background: rgba(245, 191, 98, 0.8);
+  background: rgba(241, 131, 34, 0.8);
 }
 
 @media screen and (max-width: 620px) {
@@ -515,7 +515,6 @@ h2 {
 .menu__item {
   display: inline-block;
   font-weight: 600;
-  font-size: 0.9rem;
   transition: 0.3s;
 }
 .menu__item:hover {

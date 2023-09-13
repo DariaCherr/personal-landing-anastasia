@@ -7,5 +7,3 @@ function makeVisible() {
 }
 
 setInterval(() => { makeVisible(header) }, 400);
-
-console.log(header);

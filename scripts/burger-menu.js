@@ -32,5 +32,3 @@ function closeOnClick() {
     burger.classList.remove("active");
 
 }
-
-console.log(bg);
